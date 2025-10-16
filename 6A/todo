@@ -1,0 +1,23 @@
+
+STEP 1: Training
+Construct a decision tree as you did previously, using only the training set, which consists of 2/3
+of the samples selected at random.
+
+STEP 2: Testing
+Use the decision rules derived from your decision tree (constructed in step 1 by considering the
+training set) to classify a test set of samples (the remaining 1/3 of samples, which are not
+contained in the training set). Calculate the following metrics to characterize the resulting
+classification of all samples in the test set:
+o TP, FP, TN, FN
+o Accuracy, Sensitivity, Specificity, Precision, Miss rate, False discovery rate, and
+False omission rate
+
+STEP 3: 3-fold cross-validation
+Repeat the training and testing steps (see steps 1 & 2 above) three times, using different
+training and testing sets each time. Report the evaluation metrics for each test (see step 2
+above). Also, the average evaluation metrics (across all three tests) should be reported. Be
+prepared to provide a demo in class, including the following:
+1. the genetic mutations selected by each of the three decision trees
+2. the metrics computed by 3-fold cross-validation
+3. a discussion and interpretation of the 3-fold cross-validation results (including any
+confluence among the three trees)
